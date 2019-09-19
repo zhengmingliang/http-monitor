@@ -36,11 +36,11 @@ public class MonitorUtils {
 
     @Autowired
     SendEmailUtils sendEmail;
-    private final int HTTP_OK = 200;
+    private static final int HTTP_OK = 200;
     /**
      * 发送报警的时间间隔，单位分钟
      */
-    private final int SEND_ERROR_MSG_GAPS = 5;
+    private static final int SEND_ERROR_MSG_GAPS = 5;
     /**
      * 用户防止频繁报警的map集合
      */
